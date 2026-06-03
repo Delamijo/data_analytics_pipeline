@@ -105,6 +105,7 @@ User consulted: yes/no
 - Never load full parquet files to verify sub-agent output, trust the sub-agent log
 - Never re-read the EDA report in full for every subsequent stage, extract only the relevant section
 - Never reload a file that has already been read in the current session
+- Never run an agent before step 2 (output structure) is complete
 
 
 ## Error Handling
